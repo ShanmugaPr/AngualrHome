@@ -1,0 +1,50 @@
+.row2{
+    width:100%;
+  }
+  .innerhead{
+    width:100%;
+  }
+  .innerhead h1{
+    text-align: center;
+    color: rgb(49, 110, 100);
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .innercolumn{
+    width:100%;
+    display:inline-flex;
+    justify-content: center;
+    padding:5px;
+   
+    
+  }
+  .column1 {
+    float: left;
+    width:22%;
+    height:auto;
+    padding: 10px;
+    font-family: "Lato", sans-serif !important;
+    vertical-align: top;
+    
+  }
+  .column1 img{
+     width:20%;
+     height:20%;
+     border-radius: 30px;
+  }
+  .column1 label{
+    color: rgb(49, 110, 100);
+    font-weight: bold;
+    
+  }
+  .column1 p{
+    font-family:cursive;
+    font-size: 15px;
+    color: rgb(35, 38, 66);
+    font-weight: normal;
+    text-align: justify;
+  }
+  .button{
+    background-color: tomato;
+    padding:10px 30px;
+ }
+  
