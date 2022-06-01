@@ -1,23 +1,17 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 
 @Component({
   selector: 'app-root',
-  template:`<app-navbar></app-navbar>
-  <app-navcontext></app-navcontext>
-  <app-dietfor></app-dietfor>
-  <app-box></app-box>
-  <app-success></app-success>
-  <app-how></app-how>
-  <app-footer></app-footer>`,
- 
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Homepage';
-
-
+  router: any;
+  constructor(public _router: Router) {}
 
   }
 
